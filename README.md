@@ -1,7 +1,7 @@
 # Ubuntu_docker-engine
 
-<B>Run the script with:</B>
+<B>Purpose:</B>
 
-cd Ubuntu_docker-engine/
+1. Provide a Docker engine installation script for Ubuntu 18.04 and later.
+2. Provide a docker-compose.yml file to launch tleemcjr/metasploitable2
 
-bash docker-install.sh
