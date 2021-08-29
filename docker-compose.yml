@@ -1,0 +1,15 @@
+version: '2.2' 
+services: 
+  metasploitable2: 
+    from: tleemcjr/metasploitable2
+    container_name: metasploitable2 
+    hostname: metasploitable2 
+    ports: 
+      - "2222:22"
+      - "21:21"
+      - "23:23"
+      - "25:25"
+      - "514:514"
+      - "2049:2049"
+      - "3632:3632"
+      - "6200:6200"
